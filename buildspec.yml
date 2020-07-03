@@ -14,16 +14,15 @@ phases:
         commands:
             - echo installing dependency
             - yarn
-
     build:
         commands:
-            - echo Run testing cases...
+            - echo Testing...
             - yarn test
-            - echo building project...
+            - echo Building...
             - yarn build
 artifacts:
     files:
         - "**/*"
-    discard-paths: on
+    discard-paths: no
     base-directory: dist
 
