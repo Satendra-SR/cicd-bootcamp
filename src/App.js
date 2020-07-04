@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           CICD bootcamp 2020
+          Let's start
         </p>
       </header>
     </div>
