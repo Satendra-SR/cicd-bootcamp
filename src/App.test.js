@@ -4,6 +4,6 @@ import App from './App';
 
 test('Check bootcamp lable', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/CICD bootcamp 2021/i);
+  const linkElement = getByText(/CICD bootcamp 2022/i);
   expect(linkElement).toBeInTheDocument();
 });
